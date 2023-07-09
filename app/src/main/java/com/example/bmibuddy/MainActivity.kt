@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun invalidInput(weight : String?,height : String?) :Boolean{
-       return when{
+        when{
             weight.isNullOrEmpty() ->{
                 Toast.makeText(this,"Empty weight", Toast.LENGTH_SHORT).show()
                 return false
