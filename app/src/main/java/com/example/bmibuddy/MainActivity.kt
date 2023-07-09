@@ -1,9 +1,11 @@
 package com.example.bmibuddy
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
@@ -15,6 +17,17 @@ class MainActivity : AppCompatActivity() {
         val weightText = findViewById<EditText>(R.id.etWeight)
         val heightText = findViewById<EditText>(R.id.etHeight)
         val btnCalculate=findViewById<Button>(R.id.btnCalculate)
+        val imgMale =findViewById<ImageButton>(R.id.imgMale)
+        val imgFemale =findViewById<ImageButton>(R.id.imgFemale)
+        imgMale.setOnClickListener {
+            imgMale.setBackgroundColor(Color.RED)
+            imgFemale.setBackgroundColor(Color.WHITE)
+        }
+        imgFemale.setOnClickListener {
+            imgMale.setBackgroundColor(Color.WHITE)
+            imgFemale.setBackgroundColor(Color.RED)
+        }
+
         btnCalculate.setOnClickListener {
             val weight = weightText.text.toString()
             val height = heightText.text.toString()

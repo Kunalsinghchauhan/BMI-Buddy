@@ -11,5 +11,7 @@
     <color name="resultUnderWeight">#CF8517</color>
     <color name="resultOverWeight">#C62828</color>
     <color name="resultObese">#EB1A0C</color>
+    <color name="button_selected_color">#E25959</color>
+
 
 </resources>
