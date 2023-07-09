@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#232830</color>
+    <color name="cardBackground">#28425C</color>
+    <color name="textHint">#A2AACA</color>
+    <color name="btnBackground">#B4B22B</color>
+
+    <color name="resultHealthy">#00FA0D</color>
+    <color name="resultUnderWeight">#CF8517</color>
+    <color name="resultOverWeight">#C62828</color>
+    <color name="resultObese">#EB1A0C</color>
+
+</resources>
